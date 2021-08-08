@@ -1,0 +1,208 @@
+body {
+  text-align: center;
+}
+
+h1, h3, h4, h5, h6 {
+  font-style: "Montserrat-bold";
+}
+
+h2 {
+  color: #474168;
+  font-style: "arial";
+}
+
+p {
+  color: #798777;
+}
+
+/* Headings */
+.title {
+  font-size: 3.5rem;
+  font-family: "Montserrat-bold";
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* containers */
+.container-fluid {
+  padding: 5% 15%;
+}
+
+/* sections */
+.colored {
+  background-color: #4AE0ED;
+  color: #fff;
+}
+
+.non-colored {
+  background-color: #fff;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  display: flex;
+}
+
+.nav-link:hover {
+  background-color: #ACFFAD;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+  transition: all ease 0.2s;
+}
+
+/* donate button */
+.donate-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* title-section */
+#homePage {
+  background-color: #4AE0ED;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 1% 7%;
+}
+
+.title-img {
+  width: 70%;
+  position: absolute;
+  right: 10%;
+  height: 80%
+}
+
+/* About Us */
+#AboutUs {
+  padding: 7% 15%;
+  background-color: #fff;
+  color: black;
+}
+
+.testimonial-img {
+  width: 35%;
+  border-radius: 100%;
+  margin: 20%;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 90px;
+  width: 90px;
+  background-image: none;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 50px;
+  color: green;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 50px;
+  color: green;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+/* donate */
+
+.dContainer {
+  position: relative;
+  padding-bottom: 15%;
+  font-family: Montserrat-bold;
+}
+
+.dImg {
+  position: relative;
+  width: 100%;
+}
+
+.d-Button {
+  margin: auto;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 19px;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dtext {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: ivory;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Our Partners */
+#press {
+  background-color: #4AD7ED;
+  color: #fff;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.logo-india {
+  width: 5%;
+  margin: 20px 20px 50px;
+}
+
+@media (max-width:1028px) {
+  #homePage {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+  }
+}
+
+.social-icon {
+  margin: 20px;
+}
